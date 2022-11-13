@@ -53,21 +53,18 @@
     font-weight: 300;
     color: var(--dark-grayish-blue);
     letter-spacing: .4em;
-    margin: .5rem 0;
   }
 
   .productname {
     font-family: 'Fraunces';
     font-size: 2.2rem;
     line-height: 2.2rem;
-    margin: .5rem 0;
   }
 
   .description {
     font-size: .95rem;
     color: var(--dark-grayish-blue);
     line-height: 1.5rem;
-    margin: .5rem 0;
   }
 
   .price {
@@ -76,7 +73,6 @@
     font-family: 'Fraunces';
     font-size: 2rem;
     color: var(--dark-cyan);
-    margin: .5rem 0;
   }
 
 
@@ -92,7 +88,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: .5rem 0;
     padding: 1rem;
     font-size: 1rem;
     font-weight: 700;
@@ -100,6 +95,14 @@
     background-color: var(--dark-cyan);
     border: none;
     border-radius: .5em;
+  }
+
+  .category,
+  .productname,
+  .description,
+  .price,
+  .btn-cart {
+    margin: .5rem 0;
   }
 
   svg {
