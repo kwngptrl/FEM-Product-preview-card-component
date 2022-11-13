@@ -14,9 +14,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -38,6 +35,8 @@ Users should be able to:
 
 ## My process
 
+Started by doing a mobile-first view, comparing with the design images as I went. Defined a card, card has two parts: the image and the information in the other part. Once that was done, it was committed. Then, started tackling the desktop view using a media query. After that was done, it was committed. I edited the readme files and committed those also.
+
 ### Built with
 
 - CSS custom properties
@@ -47,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-CSS is as confusing as ever.
+CSS is as confusing as ever. Not as perfect as I want it to be, but...
 
 ### Continued development
 
@@ -61,9 +60,3 @@ Kevin Powell's videos on CSS was very helpful.
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@kwngptrl](https://www.frontendmentor.io/profile/kwngptrl)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
