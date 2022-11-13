@@ -1,119 +1,130 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  :root {
-    --dark-grayish-blue: hsl(228, 12%, 48%);
-    --dark-cyan: hsl(158, 36%, 37%);
-    --white: hsl(0, 0%, 100%);
-    --cream: hsl(30, 38%, 92%);
-  }
-  
-  html {
-    font-size: 16px;
-  }
-  
-  body {
-    font-family: 'Montserrat', 'Fraunces', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .container {
-    display: grid;
-    place-content: center;
-    height: 100vh;
-    background-color: var(--cream);
-  }
-  
-  .card {
-    display: flex;
-    flex-direction: column;
-    width: 100%; 
-    max-width: 375px;
-    background-color: var(--white);
-    border-radius: 10px;
-  }
-  
-  .product-img {
-    border-radius: 10px 10px 0 0;
-    width: 100%;
-  }
-  
-  .info {
-    display: flex;
-    flex-direction: column;
-    margin: 1.2rem 1.7rem;
-  }
+:root {
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --dark-cyan: hsl(158, 36%, 37%);
+  --white: hsl(0, 0%, 100%);
+  --cream: hsl(30, 38%, 92%);
+}
 
-  .category {
-    font-size: .8rem;
-    font-weight: 300;
-    color: var(--dark-grayish-blue);
-    letter-spacing: .4em;
-  }
+html {
+  font-size: 16px;
+}
 
-  .productname {
-    font-family: 'Fraunces';
-    font-size: 2.2rem;
-    line-height: 2.2rem;
-  }
+body {
+  font-family: 'Montserrat', 'Fraunces', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-  .description {
-    font-size: .95rem;
-    color: var(--dark-grayish-blue);
-    line-height: 1.5rem;
-  }
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: var(--cream);
+}
 
-  .price {
-    display: flex;
-    align-items: center;
-    font-family: 'Fraunces';
-    font-size: 2rem;
-    color: var(--dark-cyan);
-  }
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 342px;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.product-img {
+  display: block;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1.5rem;
+}
+
+.category {
+  font-size: .75rem;
+  font-weight: 300;
+  color: var(--dark-grayish-blue);
+  letter-spacing: .4em;
+}
+
+.productname {
+  font-family: 'Fraunces';
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.description {
+  font-size: .88rem;
+  color: var(--dark-grayish-blue);
+  line-height: 1.5rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  font-family: 'Fraunces';
+  font-size: 2rem;
+  color: var(--dark-cyan);
+}
 
 
-  .regularprice {
-    font-family: 'Montserrat';
-    font-size: .9rem;
-    color: var(--dark-grayish-blue);
-    text-decoration-line: line-through;
-    margin: auto 1rem;
-  }
+.regularprice {
+  font-family: 'Montserrat';
+  font-size: .85rem;
+  color: var(--dark-grayish-blue);
+  text-decoration-line: line-through;
+  margin: auto 1rem;
+}
 
-  .btn-cart {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    font-size: 1rem;
-    font-weight: 700;
-    color: var(--white);
-    background-color: var(--dark-cyan);
-    border: none;
-    border-radius: .5em;
-  }
+.btn-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: .88rem;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--dark-cyan);
+  border: none;
+  border-radius: .5em;
+}
 
-  .category,
-  .productname,
-  .description,
-  .price,
-  .btn-cart {
-    margin: .5rem 0;
-  }
+.category,
+.productname,
+.description,
+.price,
+.btn-cart {
+  margin: .45rem 0;
+}
 
-  svg {
-    margin-right: .8rem;
-  }
+svg {
+  margin-right: .8rem;
+}
 
- @media screen and (min-width: 768px) {
-  
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+
   .card {
     flex-direction: row;
-    max-width: 625px;
+    max-width: 600px;
   }
 
   .product-img {
@@ -122,9 +133,14 @@
   }
 
   .info {
-    margin: 1.4rem 2rem;
-    max-width: 249px;
-    justify-content: space-between;
+    margin: 1.4rem 1.8rem;
+    width: 100%;
+    max-width: 244px;
+  }
+
+  .productname,
+  .description {
+    padding-right: 1rem;
   }
 
   .category,
@@ -132,6 +148,6 @@
   .description,
   .price,
   .btn-cart {
-    margin: .6rem 0;
+    margin: .7rem 0;
   }
- }
+}
