@@ -50,7 +50,7 @@ CSS is as confusing as ever. Not as perfect as I want it to be, but...
 
 ### Continued development
 
-Use semantic HTML more, learn to use SASS.
+Use semantic HTML more, learn to use SASS by the time I'm making bigger projects.
 
 ### Useful resources
 

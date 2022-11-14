@@ -31,8 +31,6 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  max-width: 342px;
   background-color: var(--white);
   border-radius: 10px;
 }
@@ -41,11 +39,14 @@ body {
   display: block;
   border-radius: 10px 10px 0 0;
   width: 100%;
+  max-width: 342px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 294px;
   margin: 1rem 1.5rem;
 }
 
@@ -124,12 +125,12 @@ svg {
 
   .card {
     flex-direction: row;
-    max-width: 600px;
   }
 
   .product-img {
     border-radius: 10px 0 0 10px;
-    height: 100%;
+    width: 100%;
+    max-width: 300px;
   }
 
   .info {
