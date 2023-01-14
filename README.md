@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the project](./Screenshot 2022-11-13.png)
+![Screenshot of the project](./Screenshot-2022-11-13.png)
 
 ### Links
 
